@@ -61,13 +61,13 @@ a:visited {
 /* default version */
 @font-face {
     font-family: 'Aleo';
-    src: url('../JohnTJ.github.io/fonts/Aleo-Font/Desktop-OTF/Aleo-Light.otf')format('opentype');
+    src: url('JohnTJ.github.io/fonts/Aleo-Font/Desktop-OTF/Aleo-Light.otf')format('opentype');
 }
 
 /* bold version */
 @font-face {
     font-family: 'Aleo';
-    src: url('../JohnTJ.github.io/fonts/Aleo-Font/Desktop-OTF/Aleo-Regular.otf')format('opentype');
+    src: url('JohnTJ.github.io/fonts/Aleo-Font/Desktop-OTF/Aleo-Regular.otf')format('opentype');
     font-weight: bold;
 }
 
