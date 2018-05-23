@@ -1,9 +1,76 @@
-body {
-    background: #cce9ff;
+.wrap {
+    background: white;
+    max-width: 612px;
+    margin: 50px auto;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-#header {
-    color: black;
+body {
+    background: white;
+
+}
+
+p.bio {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-top-color: #a6a6a6;
+    border-bottom-color: #a6a6a6;
+    margin: auto;
+    width: auto;
+
+}
+
+.footer a:hover {
+    background-color: #a6a6a6;
+    color:white;
+}
+
+a {
+    padding: 5px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #0086b3;
+}
+
+.links {
+    font-family: 'Montserrat', serif;
+    padding: 0 5px;
+    /* width: 50%;
+    margin: auto; */
+}
+
+.footer {
+    font-family: 'Montserrat', serif;
+    text-align: center;
+}
+
+/* default version */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-Light.ttf')format('truetype');
+}
+
+/* bold version */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-SemiBold.ttf')format('truetype');
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
 }
