@@ -12,7 +12,7 @@ body {
 }
 
 p.bio {
-    font-family: 'Aleo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 1.5em;
 }
@@ -47,29 +47,29 @@ a:visited {
 }
 
 .links {
-    font-family: 'Aleo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0 5px;
     /* width: 50%;
     margin: auto; */
 }
 
 .footer {
-    font-family: 'Aleo', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
-/* default version */
+/* default version
 @font-face {
     font-family: 'Aleo';
     src: local("Aleo-Light"), url("/fonts/Aleo-Font/Desktop-OTF/Aleo-Light.otf") format("opentype");
 }
 
-/* bold version */
+bold version
 @font-face {
     font-family: 'Aleo';
     src: local("Aleo-Regular"), url("/fonts/Aleo-Font/Desktop-OTF/Aleo-Regular.otf")format("opentype");
     font-weight: bold;
-}
+} */
 
 span {
     font-weight: bold;
