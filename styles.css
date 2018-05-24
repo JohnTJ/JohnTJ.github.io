@@ -27,39 +27,26 @@ p.bio {
     border-bottom-color: #a6a6a6;
     margin: auto;
     width: auto;
-
 }
 
-ul {
-    display: flex;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.footer {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
-ul li {
-    list-style: none;
-}
-
-ul li a {
-    width: 8-px;
-    height: 80px;
+a {
     background: #ffff;
     text-align: center;
     line-height: 80px;
     font-size: 20px;
-    margin: 0 10px;
+    margin: 0px 10px;
+    padding: 3px;
+    border-radius: 4px;
 }
 
 .footer a:hover {
     background-color: gray;
     color:white;
-}
-
-a {
-    padding: 5px;
-    border-radius: 4px;
 }
 
 a:link {
@@ -74,11 +61,6 @@ a:visited {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     padding: 0 5px;
-}
-
-.footer {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
 }
 
 span {
