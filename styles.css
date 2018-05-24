@@ -30,8 +30,30 @@ p.bio {
 
 }
 
+ul {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    width: 8-px;
+    height: 80px;
+    background: #ffff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
 .footer a:hover {
-    background-color: #a6a6a6;
+    background-color: gray;
     color:white;
 }
 
@@ -45,7 +67,7 @@ a:link {
 }
 
 a:visited {
-    color: #0086b3;
+    color: black;
 }
 
 .links {
