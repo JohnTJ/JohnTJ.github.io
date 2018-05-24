@@ -42,11 +42,15 @@ a {
     margin: 0px 10px;
     padding: 3px;
     border-radius: 4px;
+    position: relative;
+    transition: .5s;
 }
+
 
 .footer a:hover {
     background-color: gray;
     color:white;
+    
 }
 
 a:link {
