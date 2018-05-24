@@ -1,14 +1,23 @@
 .wrap {
     background: white;
-    max-width: 612px;
     margin: 50px auto;
+    max-width: 625px;
     padding-right: 10px;
     padding-left: 10px;
 }
 
-body {
-    background: white;
+body .wrap .top nav {
+    text-align: left;
+    margin-bottom: 10px;
+}
 
+a.nlink {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: auto 10px auto auto;
+    padding: 6px;
+    border-radius: 50px;
 }
 
 p.bio {
@@ -18,39 +27,39 @@ p.bio {
     font-weight: 300;
 }
 
-.hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-top-color: #a6a6a6;
-    border-bottom-color: #a6a6a6;
-    margin: auto;
-    width: auto;
-}
-
-.footer {
+p.bio2 {
     font-family: 'Lato', sans-serif;
     text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 0px;
 }
 
-a {
-    background: #ffff;
+.wrap .bio span {
+    font-weight: bold;
+}
+
+.hr {
+    border-top: .5px solid;
+    border-bottom: .5px solid;
+    height: 0;
+    margin: auto auto 30px auto;
+    border-top-color: #a6a6a6;
+    border-bottom-color: #a6a6a6;
+}
+
+p.social {
     text-align: center;
-    line-height: 80px;
-    font-size: 20px;
-    margin: 0px 10px;
-    padding: 3px;
-    border-radius: 4px;
-    position: relative;
-    transition: .5s;
+    line-height: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
-
-.footer a:hover {
-    background-color: gray;
-    color:white;
-    
+a.slink {
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 a:link {
@@ -61,12 +70,12 @@ a:visited {
     color: black;
 }
 
-.links {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    padding: 0 5px;
+a:hover {
+    background-color: gray;
+    color:white;
+    transition: .5s;
 }
 
-span {
-    font-weight: bold;
+bio a {
+    text-decoration: underline;
 }
