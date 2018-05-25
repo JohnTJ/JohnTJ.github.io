@@ -79,3 +79,7 @@ a:hover {
 bio a {
     text-decoration: underline;
 }
+
+.hr2 {
+    margin: 62px auto 63px auto;
+}
