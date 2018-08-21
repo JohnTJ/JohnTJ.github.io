@@ -66,6 +66,14 @@ a:link {
     color: black;
 }
 
+a.clink {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin: auto 10px auto auto;
+    padding: 6px;
+    border-radius: 50px;
+}
+
 a:visited {
     color: black;
 }
@@ -82,4 +90,55 @@ bio a {
 
 .hr2 {
     margin: 62px auto 63px auto;
+}
+
+.hr3 {
+    border-top: .5px solid;
+    border-bottom: .5px solid;
+    height: 0;
+    margin: 15px auto 30px auto;
+    border-top-color: #a6a6a6;
+    border-bottom-color: #a6a6a6;
+    width: 50%
+}
+
+p.title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding-bottom: 35px;
+}
+
+p.title2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+table.description {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+p.description {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+ul.description {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding-bottom: 35px;
 }
